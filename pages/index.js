@@ -1,22 +1,15 @@
-import Head from 'next/head';
-import 'daisyui';
-import Link from 'next/link';
-import Image from 'next/image';
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
-import Hero from '../components/Hero';
+import Head from 'next/Head'
+import Navbar from '../components/Navbar'
+import Hero from '../components/Hero'
+import Footer from '../components/Footer'
 
-const pp = () => {
+export default function index() {
   return (
     <>
       <Head>
-        <title>Portfolio</title>
+        <title>makan</title>
       </Head>
-      <Navbar />
       <Hero />
-      <Footer />
     </>
   )
 }
-
-export default pp;
