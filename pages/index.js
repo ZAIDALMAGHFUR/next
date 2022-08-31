@@ -1,7 +1,6 @@
 import Head from 'next/Head'
-import Navbar from '../components/Navbar'
-import Hero from '../components/Hero'
-import Footer from '../components/Footer'
+import Hero from './Hero'
+
 
 export default function index() {
   return (

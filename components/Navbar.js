@@ -10,12 +10,12 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 backdrop-blur-sm">
                         <li><a href="../Hero">Home Page</a></li>
-                        <li><a href="/About">About</a></li>
-                        <li><a>Project</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a href="../About">About</a></li>
+                        <li><a href="../project">Project</a></li>
+                        <li><a href="../Contact">Contact</a></li>
                     </ul>
                 </div>
-                <div className="flex-1 pl-80 ml-28">
+                <div className="flex pl-9">
                     <a href="https://dev21.me" className="btn btn-ghost normal-case text-xl text-teal-500 navbar-end">ZaidDev</a>
                 </div>
             </div>
