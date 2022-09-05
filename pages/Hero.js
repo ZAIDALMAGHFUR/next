@@ -98,5 +98,5 @@ const Hero = () => {
         </>
     )
 }
-makan enak
+
 export default Hero;
