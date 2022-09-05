@@ -11,7 +11,7 @@ const Hero = () => {
             <div>
                 <div className="flex justify-center">
                     <div className="h-36 w-36 flex justify-center mt-24 mb-5">
-                        <Image src={zaid} className={`rounded-full`} alt="Zaid" />
+                        <Image src={zaid} className="rounded-full" alt="Zaid" />
                     </div>
                 </div>
                 <div>
@@ -98,5 +98,5 @@ const Hero = () => {
         </>
     )
 }
-
+makan enak
 export default Hero;
